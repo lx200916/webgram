@@ -86,6 +86,7 @@
 	"settings_modal_password_email_pending": "Click the link in {email} to complete Two-Step Verification setup.",
 	"settings_modal_password_email_pending_cancel": "Abort",
 	"settings_modal_password_email_pending_cancel_mobile": "Abort password",
+  "settings_modal_show_sensitive_content": "Show Sensitive Content",
 
 	"password_delete_title": "Turn password off",
 	"password_change_title": "Two-Step Verification",
@@ -219,6 +220,15 @@
 	"group_invite_revoke_active": "Revoking...",
 	"group_invite_revoke": "Revoke",
 
+	"report_reason_modal_title": "Report",
+	"report_reason_modal_spam": "Spam",
+	"report_reason_modal_violence": "Violence",
+	"report_reason_modal_pornography": "Pornography",
+	"report_reason_modal_childabuse": "Child Abuse",
+	"report_reason_modal_other": "Other",
+	"report_reason_modal_other_placeholder": "Description",
+	"report_reason_modal_submit_btn": "Send",
+
 	"clipboard_copied": "Copied!",
 	"clipboard_press_ctrl_c": "Press Ctrl+C to copy",
 	"clipboard_press_cmd_c": "Press ⌘+C to copy",
@@ -246,6 +256,7 @@
 	"confirm_modal_login_phone_correct": "Is this phone number correct?",
 	"confirm_modal_forward_to_peer": "Forward to {peer}?",
 	"confirm_modal_forward_to_peer_success": "Message was successfully forwarded.",
+	"confirm_modal_report_success": "Report sent",
 	"confirm_modal_send_to_peer": "Send to {peer}?",
 	"confirm_modal_share_file_peer": "Share with {peer}?",
 	"confirm_modal_invite_peer": "Invite to {peer}?",
@@ -267,7 +278,9 @@
 	"confirm_modal_migrate_supergroup_md": "Please note that group members will need to update their Telegram apps to the latest version to see your supergroup.\n\nAre you sure you want to upgrade this group?",
 	"confirm_modal_bot_access_phone": "The bot will know your phone number. This can be useful for integration with other services.",
 	"confirm_modal_bot_access_geo": "This will send your current location to the bot.",
-	"confirm_modal_bot_access_geo_inline": "This bot would like to know your location each time you send it a request. This can be used to provide location-specific results.",
+  "confirm_modal_bot_access_geo_inline": "This bot would like to know your location each time you send it a request. This can be used to provide location-specific results.",
+	"confirm_modal_content_settings_sensitive_md": "**Disable filtering**\nIf you disable filtering, Telegram will display sensitive media in public channels on all your connected devices.",
+  "confirm_modal_content_settings_sensitive_submit": "Disable",
 
 	"confirm_modal_are_u_sure": "Are you sure?",
 
@@ -391,6 +404,7 @@
 	"message_action_reply": "Reply",
 	"message_action_edit": "Edit",
 	"message_action_delete": "Delete",
+	"message_action_report": "Report",
 	"message_action_forward": "Forward",
 	"message_action_select": "Select",
 	"message_action_cancel": "Cancel",
@@ -441,7 +455,7 @@
 	"error_modal_recovery_na_description": "Since you haven't provided a recovery e-mail when setting up your password, your remaining options are either to remember your password or to reset your account.",
 	"error_modal_password_success_descripion": "Your password for Two-Step Verification is now active.",
 	"error_modal_password_disabled_descripion": "You have disabled Two-Step Verification.",
-	"error_modal_user_not_mutual_contact": "The user can be invited by his contact only",
+	"error_modal_user_not_mutual_contact": "The user can be invited by their contact only",
 	"error_modal_invite_link_invalid": "The invite link is invalid",
 	"error_modal_channel_not_accessible": "Sorry, this channel is not accessible.",
 	"error_modal_not_contact_flood": "Sorry, you can only send messages to mutual contacts at the moment. {more-info-link: More info »}",
@@ -449,7 +463,7 @@
 	"error_modal_2fa_recent_confirm": "Your recent attempts to reset this account have been cancelled by its active user. Please try again in 7 days.",
 	"error_modal_2fa_delayed_time_md": "You'll be able to reset your account in: **{time}**",
 
-
+	"head_mainmenu": "Main menu",
 	"head_telegram": "Telegram",
 	"head_new_group": "New group",
 	"head_new_contact": "New contact",
@@ -529,6 +543,7 @@
 	"im_channel_join": "+ Join",
 	"im_channel_mute": "Mute",
 	"im_channel_unmute": "Unmute",
+	"im_report": "Report {count}",
 	"im_reply_loading": "Loading{dots}",
 	"im_X_forwarded_messages": "{'one': '{} forwarded message', 'other': '{} forwarded messages'}",
 	"im_photos_drop_text": "Drop photos here to send",
@@ -537,6 +552,7 @@
 	"im_emoji_tab": "Emoji",
 	"im_stickers_tab": "Stickers",
 	"im_stickers_tab_recent": "Frequently used",
+	"im_voice_record_title": "Record a message",
 	"im_media_attach_title": "Send media",
 	"im_attach_file_title": "Send file",
 	"im_emoji_btn_title": "Insert emoticon",
@@ -617,7 +633,8 @@
 	"message_attach_video_save": "Save file",
 	"message_attach_video_play": "Play video",
 
-	"message_attach_unsupported": "The message is not supported on your version of Telegram Web. Update the app to view: {link}.",
+  "message_attach_unsupported": "The message is not supported on your version of Telegram Web. Update the app to view: {link}.",
+	"message_attach_unsupported_desktop": "This message is currently not supported on Telegram Web. Try {link}.",
 	"message_attach_notweb": "The message is not supported on Telegram Web yet. Use Telegram mobile apps to view: {link}.",
 
 	"conversation_select_modal_title": "Select conversation",
